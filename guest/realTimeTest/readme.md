@@ -2,7 +2,7 @@
 
 **To know details about the details, please refer to my report.**
 
-<div align=center><img src='images/1.jpg' align=center>
+<div align=center><img src='images/1.jpg' align=center></div>
 
 The whole process in the TICK stack is as follow. The detailed data in PHY and MAC LAYER is collected during mobile transmission by network telemetric technologies (Telegraph). The data is stored in the influx DB part and shown in the Chronograph, which has been done before. 
 
