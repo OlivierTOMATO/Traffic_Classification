@@ -2,7 +2,7 @@
 
 **To know details about the details, please refer to my report.**
 
-![img](images/1.jpg)**
+<img src='images/1.jpg' align=center>
 
 The whole process in the TICK stack is as follow. The detailed data in PHY and MAC LAYER is collected during mobile transmission by network telemetric technologies (Telegraph). The data is stored in the influx DB part and shown in the Chronograph, which has been done before. 
 
@@ -50,7 +50,7 @@ The model preferred in single traffic situation, trained with the data in CSV fi
 
 3.  Turn to test.py, change the initialization of start-point and end-point, set the time-window each measurement.
 
-![img](images/2.jpg)
+<img src='images/2.jpg' align=center>
 
 4.  Run the classification based on the model trained. Then the console will continuously output classification results.
 
