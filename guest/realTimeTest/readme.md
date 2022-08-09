@@ -4,6 +4,7 @@
 
 <div align=center><img src='images/1.jpg' align=center></div>
 
+
 The whole process in the TICK stack is as follow. The detailed data in PHY and MAC LAYER is collected during mobile transmission by network telemetric technologies (Telegraph). The data is stored in the influx DB part and shown in the Chronograph, which has been done before. 
 
 This project focuses on extracting the data stored in influx DB by some existing python APIs and analyzing the data with some tested models. Some of the data extracted is stored in CSV file (or .npz file) for model training. The left data, which is supposed to be the real-time data detected, is preprocessed and then put into the trained model. The python console will show the classification outcome of our algorithms. Finally, to make the classification outcome more visible, the last part is to write back the classification results and present them on chronograph.
@@ -50,7 +51,7 @@ The model preferred in single traffic situation, trained with the data in CSV fi
 
 3.  Turn to test.py, change the initialization of start-point and end-point, set the time-window each measurement.
 
-<img src='images/2.jpg' align=center>
+<div align=center><img src='images/2.jpg' align=center></div>
 
 4.  Run the classification based on the model trained. Then the console will continuously output classification results.
 

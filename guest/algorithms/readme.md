@@ -33,19 +33,19 @@ The testing code of NNs models, change inside to choose a specific type of model
 
 2. Turn to ML methods directory. Choose the models above and change the data source path.
 
-   <img src='images/1.jpg' align=center>
-   
-<img src='images/2.jpg' align=center>
+   <div align=center><img src='images/1.jpg' align=center></div>
+
+<div align=center><img src='images/2.jpg' align=center></div>
 
 3)  Change the inside input and label for experiments.
 
 > ​	In final_data_test_6\_tuan.csv, the first 37267 rows are single traffic situation.
 > 
-><img src='images/3.jpg' align=center>
+><div align=center><img src='images/3.jpg' align=center></div>
 
 4)  Run the model and the console will show the testing results. It takes 1 -- 10 s.
 
-> <img src='images/4.jpg' align=center>
+> <div align=center><img src='images/4.jpg' align=center></div>
 > 
 >
 > 
@@ -55,17 +55,17 @@ The testing code of NNs models, change inside to choose a specific type of model
     
 2)  Choose the database for experiments and change the data path in dataloader. Look in details about the directories in /Data described above. Choose the most suitable one, and identify the input format and output format.
 
-> <img src='images/5.jpg' align=center>
+> <div align=center><img src='images/5.jpg' align=center></div>
 
 3)  Back to main.py and select among the models below: CNN, RNN, RNN-CNN
 
 > Change the hyperparameters to make the model more suitable to the data. To change the  structure of the model, please refer to model directory to make modification.
 > 
-> <img src='images/6.jpg' align=center>
+> <div align=center><img src='images/6.jpg' align=center></div>
 
 4)  Initiate appropriate optimizer and learning rate for the model.
 
-> <img src='images/7.jpg' align=center>
+> <div align=center><img src='images/7.jpg' align=center></div>
 
 5)  Run main.py, then the model will start to train and then show outcomes after tests. The training and testing time will be reduced if using GPU. (To know how to make connection with GPU in INFRE
     telecom Paris, please search online how to make SSH connection).
@@ -73,13 +73,13 @@ The testing code of NNs models, change inside to choose a specific type of model
 
 > Train:
 > 
-> <img src='images/8.jpg' align=center>
+> <div align=center><img src='images/8.jpg' align=center></div>
 >
 > Test:
 >
-> <img src='images/9.jpg' align=center>
+> <div align=center><img src='images/9.jpg' align=center></div>
 > 
 >Result:
 > 
-><img src='images/10.jpg' align=center>
+><div align=center><img src='images/10.jpg' align=center></div>
 
